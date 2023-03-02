@@ -5,7 +5,7 @@ L'application Mooviz permet à de consulter une bibliothèque de films, mais ég
 
 ## Lien
 
-La partie front-end de l'application est accessible à partir du lien suivant:
+La partie back-end de l'application est accessible à partir du lien suivant:
 - [Back-end](https://github.com/kitaah/Mooviz_backend)
 
 ## Fonctionnalités
