@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+.App {
+  text-align: center;
+}
+
+html,
+body {
+  font-family: 'Roboto';
+  background-color: #17a2b8;
+}
+
+main {
+  padding: 8rem 0 5rem 0;
+}
+
+footer {
+  margin-top: 40rem;
+}
+
+.line-break::before {
+  content: "\a";
+  white-space: pre;
+}
+
+.link-to-allmovies {
+  width: 18rem;
+  border: 0.1rem solid transparent;
+  border-radius: 5rem;
+}
+
+.link-to-allmovies:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in;
+}
+
+table {
+  vertical-align: middle !important;
+}
+
+.search-bar {
+  width: 25rem;
+}
