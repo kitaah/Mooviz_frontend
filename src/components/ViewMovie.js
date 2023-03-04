@@ -15,10 +15,10 @@ function ViewMovie() {
     }, []);
 
     const [movie, setMovie] = useState({
-    title: "",
-    year: "",
-    director: "",
-    category: "",
+        title: "",
+        year: "",
+        director: "",
+        category: "",
     });
 
     const { id } = useParams();

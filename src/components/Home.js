@@ -9,9 +9,9 @@ import "aos/dist/aos.css";
 function Home() {
     const { user } = UserAuth();
     useEffect(() => {
-    document.title = 'Accueil utilisateur 👤';
-    AOS.init();
-    AOS.refresh();
+      document.title = 'Accueil utilisateur 👤';
+      AOS.init();
+      AOS.refresh();
   }, []);
   
 

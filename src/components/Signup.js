@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { UserAuth } from '../context/AuthContext';
 import { FaUserAlt } from 'react-icons/fa';
@@ -8,6 +8,10 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 
 const Signup = () => {
+  useEffect(() => {
+    document.title = 'Inscription 👤';
+  }, []);
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const { createUser } = UserAuth();
