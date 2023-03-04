@@ -31,23 +31,23 @@ function EditMovie() {
     const { title, year, director, category } = movie;
 
     const onInputChange = (e) => {
-        setMovie({ ...movie, [e.target.name]: e.target.value });
+      setMovie({ ...movie, [e.target.name]: e.target.value });
     };
 
     const handleSubmit = async (e) => {
-        e.preventDefault();
-        await axios.put(`http://localhost:8080/updatemovie/${id}`, movie);
-        navigate("/films");
+      e.preventDefault();
+      await axios.put(`http://localhost:8080/updatemovie/${id}`, movie);
+      navigate("/films");
     };
 
     const loadMovie = async () => {
-        const result = await axios.get(`http://localhost:8080/getmovie/${id}`);
-        setMovie(result.data);
+      const result = await axios.get(`http://localhost:8080/getmovie/${id}`);
+      setMovie(result.data);
     };
 
     const loadCategories = async () => {
-    const result = await axios.get("http://localhost:8080/getcategories");
-    setCategories(result.data);
+      const result = await axios.get("http://localhost:8080/getcategories");
+      setCategories(result.data);
     };
 
     return (

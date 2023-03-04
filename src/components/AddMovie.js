@@ -38,8 +38,8 @@ function AddMovie() {
   };
 
   const loadCategories = async () => {
-  const result = await axios.get("http://localhost:8080/getcategories");
-  setCategories(result.data);
+    const result = await axios.get("http://localhost:8080/getcategories");
+    setCategories(result.data);
   };
 
   return (

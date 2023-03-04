@@ -22,13 +22,13 @@ function ViewAllMovies() {
     const { id } = useParams();
 
     const loadMovies = async() => {
-    const result = await axios.get("http://localhost:8080/getmovies");
-    setMovies(result.data);
+        const result = await axios.get("http://localhost:8080/getmovies");
+        setMovies(result.data);
     }
 
     const deleteMovie = async (id) => {
-    await axios.delete(`http://localhost:8080/deletemovie/${id}`);
-    loadMovies();
+        await axios.delete(`http://localhost:8080/deletemovie/${id}`);
+        loadMovies();
     };
     
     return (

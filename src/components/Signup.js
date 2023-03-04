@@ -25,7 +25,7 @@ const Signup = () => {
         <h1 className="text-center mb-5"><FaUserAlt className="pe-3" size={60} />Création de compte</h1>
         <Row>
           <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 bg-success shadow px-5">
-            <p className='text-center fw-bold py-2'>Déjà un compte?{' '}<Link to='/' className='text-light underline line-break'>Connecte toi.</Link></p>
+            <p className='text-center fw-bold py-2'>Déjà un compte?<Link to='/' className='text-light underline line-break'>Connecte toi.</Link></p>
             <Form onSubmit={handleSubmit} className="text-light p-3">
               <Form.Group className="mb-3" controlId="formAddEmail">
                 <Form.Label htmlFor="email">Email:</Form.Label>
