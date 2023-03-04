@@ -10,7 +10,7 @@ La partie back-end de l'application est accessible à partir du lien suivant:
 
 ## Fonctionnalités
 
-- **Accès visiteur:** page de connexion et de création de compter.
+- **Accès visiteur:** page de connexion et de création de compte.
 - **Accès utilisateur:** connexion, création de compte, consultation et gestion des films.
 
 
