@@ -17,7 +17,7 @@ La partie back-end de l'application est accessible à partir du lien suivant:
 ## Langages
 
 - **Front-end:** HTML, CSS, JavaScript, SASS (avec utilisation de la librairie JavaScript React et du framework CSS Bootstrap).
-- **Back-end:** Java (avec utilisation du framework Spring Boot).
+- **Back-end:** Java (avec utilisation du framework Spring Boot pour la mise en place d'une API REST).
 
 
 ## Outils
