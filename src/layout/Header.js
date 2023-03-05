@@ -26,7 +26,7 @@ function Header() {
 		<header>
             <Navbar className="text-uppercase navbar navbar-dark bg-primary fixed-top px-5" bg="dark" expand="md">
             <Container>
-                <Navbar.Brand><Link to="/"><img src={require('../medias/logo.png')} width="180" alt="PeopleCheck logo" /></Link></Navbar.Brand>
+                <Navbar.Brand><Link to="/"><img src={require('../medias/logo.png')} width="180" alt="Bira logo" /></Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="navbar-nav ms-auto text-end mt-3 mt-md-0 mt-lg-0 mt-xl-0 align-middle">

@@ -16,7 +16,7 @@ La partie back-end de l'application est accessible à partir du lien suivant:
 
 ## Langages
 
-- **Front-end:** HTML, CSS, JavaScript, SASS (avec librairie d'icônes React-icons, d'animation AOS et utilisation du framework CSS Bootstrap).
+- **Front-end:** HTML, CSS, JavaScript, SASS (avec utilisation de librairie JavaScript React et du framework CSS Bootstrap).
 - **Back-end:** Java (avec utilisation du framework Spring Boot).
 
 
